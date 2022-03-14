@@ -9,6 +9,8 @@
 body
 {
 	background: #f5f5f5;
+	
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,14 +28,14 @@ body
 	grid-template-columns: 1fr 2fr;
 	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-.left_Side
+.left-side
 {
 	position: relative;
 	background: #003147;
 	padding: 40PX;
 }
 
-.left_Side .profileText
+.left-side .profiltexte
 {
 	position: relative;
 	display: flex;
@@ -43,7 +45,7 @@ body
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-.left_Side .profileText .imgp
+.left-side .profiltexte .imgp
 {
 	position: relative;
 	width: 200px;
@@ -51,7 +53,7 @@ body
 	border-radius: 50%;
 	overflow: hidden;
 }
-.left_Side .profileText .imgp img
+.left-side .profiltexte .imgp img
 {
 	position: absolute;
 	top: 0;
@@ -61,7 +63,7 @@ body
 	object-fit: cover;
 }
 
-.left_Side .profileText h2
+.left-side .profiltexte h2
 {
 	color: #fff;
 	font-size: 1.5em;
@@ -72,12 +74,12 @@ body
 	line-height: 1.4em;
 }
 
-.left_Side .profileText h2 span
+.left-side .profiltexte h2 span
 {
 	font-size: 0.8em;
 	font-weight: 300;
 }
-.contactInfo
+.contact
 {
 	padding-top: 40px;
 }
@@ -89,50 +91,50 @@ body
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 }
-.contactInfo ul
+.contact ul
 {
 	position: relative;
 }
-.contactInfo ul li
+.contact ul li
 {
 	position: relative;
 	list-style: none;
 	margin: 10px 0;
 	cursor: pointer;
 }
-.contactInfo ul li span.icon
+.contact ul li span.icon
 {
 	display: inline-block;
 	width: 30px;
 	font-size: 18px;
 	color: #03a9f4;
 }
-.contactInfo ul li span
+.contact ul li span
 {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 300;
 }
-.contactInfo.education li
+.contact.education li
 {
 	margin-bottom: 15px;
 }
-.contactInfo.education h5
+.contact.education h5
 {
 	color: #03a9f4;
 	font-weight: 500;
 }
-.contactInfo.education h4:nth-child(2)
+.contact.education h4:nth-child(2)
 {
 	color: #fff;
 	font-weight: 500;
 }
-.contactInfo.education h4
+.contact.education h4
 {
 	color: #fff;
 	font-weight: 300;
 }
-.contactInfo.language .percent
+.contact.language .percent
 {
 	position: relative;
 	width: 100%;
@@ -143,7 +145,7 @@ body
 	display: block;
 	overflow: hidden;
 }
-.contactInfo.language .percent div
+.contact.language .percent div
 {
 	position: absolute;
 	top: 0;
