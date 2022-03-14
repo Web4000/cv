@@ -9,7 +9,6 @@
 body
 {
 	background: #f5f5f5;
-	/*background: lightblue;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,7 +43,7 @@ body
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-.left_Side .profileText .imgBx
+.left_Side .profileText .imgp
 {
 	position: relative;
 	width: 200px;
@@ -52,7 +51,7 @@ body
 	border-radius: 50%;
 	overflow: hidden;
 }
-.left_Side .profileText .imgBx img
+.left_Side .profileText .imgp img
 {
 	position: absolute;
 	top: 0;
