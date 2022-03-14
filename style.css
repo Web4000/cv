@@ -185,12 +185,12 @@ p
 	flex-direction: row;
 	margin: 20px 0;
 }
-.about .box .year_company
+.about .box .period
 {
 	min-width: 150px;
 	margin-bottom: 10px;
 }
-.about .box .year_company h5
+.about .box .period h5
 {
 	text-transform: uppercase;
 	color: #848c90;
